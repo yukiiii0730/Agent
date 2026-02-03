@@ -6,7 +6,7 @@ A simple agent that can search the web and retrieve information.
 
 import requests
 from bs4 import BeautifulSoup
-from typing import List, Dict
+from typing import List, Dict, Any
 import time
 import urllib.parse
 
@@ -130,7 +130,7 @@ class WebSearchAgent:
             print(f"❌ Fetch error: {e}")
             return ""
     
-    def search_and_summarize(self, query: str, num_results: int = 3) -> Dict[str, any]:
+    def search_and_summarize(self, query: str, num_results: int = 3) -> Dict[str, Any]:
         """
         Search for a query and fetch content from top results.
         
