@@ -125,10 +125,7 @@ The agent consists of a single main module:
 
 ## Dependencies / 依赖项
 
-- `duckduckgo-search`: For performing web searches without API keys
-- `requests`: For HTTP requests
-- `beautifulsoup4`: For parsing HTML content
-- `python-dotenv`: For environment variable management
+- `duckduckgo-search`: For performing web searches without API keys (automatically includes all necessary dependencies)
 
 ## License / 许可证
 

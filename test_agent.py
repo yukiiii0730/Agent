@@ -59,10 +59,9 @@ def test_basic_search():
             print("✓ Results have correct structure")
             
             # Display first result
-            if results:
-                print(f"\nSample result:")
-                print(f"  Title: {results[0]['title'][:50]}...")
-                print(f"  URL: {results[0]['link'][:50]}...")
+            print(f"\nSample result:")
+            print(f"  Title: {results[0]['title'][:50]}...")
+            print(f"  URL: {results[0]['link'][:50]}...")
             
             return True
         else:
